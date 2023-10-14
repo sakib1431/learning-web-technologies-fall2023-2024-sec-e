@@ -6,7 +6,7 @@
 </head>
 
 <body>
-	<form action="" method="GET">
+	<form action="logcheck.php" method="GET">
 		<fieldset>
 			<legend>
 				<h2>Login</h2>
@@ -19,22 +19,7 @@
 	</form>
 	<br>
 
-	<?php
-    if ($_SERVER["REQUEST_METHOD"] == "GET") {
-        $username = $_GET['uname'];
-        $password = $_GET['password'];
-        $usernameRegex = '/^[A-Za-z0-9._-]{2,}$/';
-        $passwordRegex = '/^(?=.*[@#$%]).{8,}$/';
 
-        if (!preg_match($usernameRegex, $username)) {
-            echo "Invalid Username. Please enter a valid username.";
-        } elseif (!preg_match($passwordRegex, $password)) {
-            echo "Invalid Password. Please enter a valid password.";
-        } else {
-            echo "Validation successful!";
-        }
-    }
-    ?>
 </body>
 
 </html>
