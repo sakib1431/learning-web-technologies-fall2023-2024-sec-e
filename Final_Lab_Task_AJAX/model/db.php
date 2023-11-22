@@ -1,19 +1,17 @@
-<?php 
+<?php
 
-$dbhost = '127.0.0.1';
-$dbname = 'project';
-$dbuser = 'root';
-$dbpassword = '';
+    $dbhost = "localhost";
+    $dbname = "jobportaldb";
+    $dbuser = "root";
+    $dbpass = "";
 
-
-function getConnection(){
-    global $dbhost;
-    global $dbname;
-    global $dbpassword;
-    global $dbuser;
-
-    $con = mysqli_connect($dbhost, $dbuser, $dbpassword, $dbname);
-    return $con;
-}
-
+    function getConnection(){
+        global $dbhost;
+        global $dbname;
+        global $dbpass;
+        global $dbuser;
+        
+        $con = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
+        return  $con;
+    }
 ?>
