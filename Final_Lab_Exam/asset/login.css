@@ -1,0 +1,60 @@
+/* Add this CSS code in a separate CSS file or within a <style> tag in your HTML head */
+
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #f0f0f0;
+    /* Set a background color for the body */
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+legend {
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+input[type="submit"],
+button {
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+button {
+    margin-left: 10px;
+    background-color: #3498db;
+}
+
+.error-message {
+    font-size: 15px;
+    color: red;
+    margin-top: 5px;
+}

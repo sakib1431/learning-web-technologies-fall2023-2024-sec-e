@@ -1,0 +1,84 @@
+/* Add this CSS code in a separate CSS file or within a <style> tag in your HTML head */
+
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #f0f0f0;
+    /* Set a background color for the body */
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+button {
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+th {
+    background-color: #4CAF50;
+    /* Green background for table headers */
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+label {
+    font-size: 20px;
+    text-align: left;
+}
+
+input[type="text"] {
+    font-size: 18px;
+    padding: 8px;
+}
+
+input[type="button"] {
+    font-size: 14px;
+    padding: 8px;
+}
+
+#searchuname_err {
+    color: red;
+    font-size: 18px;
+}
+
+hr {
+    border: 1px solid #ddd;
+    margin-top: 40px;
+}
+
+button[type="button"] {
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+button[type="button"]:hover {
+    background-color: #2980b9;
+}
